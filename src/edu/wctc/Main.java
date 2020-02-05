@@ -37,11 +37,11 @@ public class Main {
                 }
 
             }
+        }
 
-            // Loop over entries in the map, getting each key/value pair
-            for (Map.Entry<String, Integer> entry : map.entrySet()) {
-                System.out.println(entry.getKey() + " " + entry.getValue());
-            }
+        // Loop over entries in the map, getting each key/value pair
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
         }
     }
 
