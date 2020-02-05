@@ -6,7 +6,7 @@ import java.util.Map;
 public class Main {
 
     private final static FileInput indata = new FileInput("the_book.csv");
-    private final static Map<String, Integer> map = new HashMap<String, Integer>();
+    private final static Map<String, Integer> map = new HashMap<>();
 
 
     public Main() {
